@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <title>sign up form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Main Container -->
+  <main class="main-container">
+    <!-- Info Section -->
+    <section class="info-section">
+
+      <h1> REGISTER TO HELP</h1>
+      <p> Register yourself to join the chained network of volunteers and NGO's.</p>
+    </section>
+    <section class="form-section">
+      <button class="sales-btn"> NGO Registration Form
+      </button>
+      <!-- Form -->
+      <form class="main-form">
+        <!-- Username-->
+        <div class="input-field">
+          <input class="ngo-name" id="name" type="text" placeholder="NGO Name">
+          <div class="ngo-name-error"></div>
+          <label for="ngo-name" class="ngo-name-label"></label>
+        </div>
+        <!-- Address -->
+        <div class="input-field">
+          <input class="locality" type="text" placeholder="Locality">
+          <div class="locality-error"></div>
+          <label for="locality" class="locality-label"></label>
+        </div>
+
+        <!-- Contact Number -->
+        <div class="input-field">
+          <input class="contact-no." type="number" placeholder="Contact No.">
+          <div class="contact-no.-error"></div>
+          <label for="contact-no." class="contact-no.-label"></label>
+        </div>
+
+        <!-- Email -->
+        <div class="input-field">
+          <input class="user-email" type="email" placeholder="Email Address">
+          <div class="user-email-error"></div>
+          <label for="user-email" class="email-label"></label>
+        </div>
+        <!-- Password -->
+        <div class="input-field">
+          <input class="user-pass" type="password" placeholder="Password">
+          <div class="user-pass-error"></div>
+          <label for="user-pass" class="pass-label"></label>
+        </div>
+        <div class="input-field">
+          <label for="submit-info" class="success-msg"></label>
+          <button class="submit-info" id="submit-info" type="submit">Sign Up</button>
+        </div>
+        <label class="tnc" for="submit-info"> By clicking the button, you are agreeing to our <a href="">Terms and
+            Services</a>
+        </label>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
